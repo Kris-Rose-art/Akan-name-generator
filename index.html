@@ -23,15 +23,15 @@
         
         </p>
         <p>That being said, wondering what your Akan name is?</p>
-        <div class="form">
             
         
             <p>Enter your details here to find out!</p>
-            <form method="POST" onsubmit="getData(event)">
-                <div class="input">
+            <form onsubmit="getData(event)">
+                
+                <div id="input">
                     <table>
                         <tr>
-                            <td>Birthday : <input type="date" name="" id=""></td>
+                            <td>Birthday : <input type="date" name="" id="datepicker"></td>
                         </tr>
                         <tr>
                             <td>Gender : <input type="radio" name="Gender">Male <input type="radio" name="Gender">Female</td>
@@ -42,7 +42,8 @@
                     </table>
                 </div>
             </form>
-        </div>
+            <div id="response"></div>
+        
     </div>
 
     
