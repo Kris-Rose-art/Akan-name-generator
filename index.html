@@ -6,7 +6,7 @@
     <title>Akan name generator</title>
     <link href="../bootstrap-4.5.0-dist/css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="./styles.css" rel="stylesheet" type="text/css">
-
+    
 
 </head>
 <body>
@@ -23,25 +23,27 @@
         
         </p>
         <p>That being said, wondering what your Akan name is?</p>
+            <p class="details">
             
         
-            <p>Enter your details here to find out!</p>
-            <form onsubmit="getData(event)">
-                
-                <div id="input">
-                    <table>
-                        <tr>
-                            <td>Birthday : <input type="date" name="" id="datepicker"></td>
-                        </tr>
-                        <tr>
-                            <td>Gender : <input type="radio" name="Gender">Male <input type="radio" name="Gender">Female</td>
-                        </tr>
-                        <tr>
-                            <td><input type="submit" id="button" value="submit"></td>
-                        </tr>
-                    </table>
-                </div>
-            </form>
+                <p>Enter your details here to find out!</p>
+                <form onsubmit="return getData(event)">
+                    
+                    <div id="input">
+                        <table>
+                            <tr>
+                                <td>Birthday : <input type="date" name="date" id="datepicker"></td>
+                            </tr>
+                            <tr>
+                                <td>Gender : <input type="radio" name="Gender" value="Male">Male <input type="radio" name="Gender" value="Female">Female</td>
+                            </tr>
+                            <tr>
+                                <td><input type="submit" id="button" value="submit"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </form>
+            </p>
             <div id="response"></div>
         
     </div>
