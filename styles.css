@@ -3,9 +3,10 @@ h1 {text-align: center;
 }
 h2 {text-align: center;
 }
-#landing-page {background-color: burlywood;
-               background-position-y: 500vh;
-               background-position-x: 500vh 500vw;
+#landing-page {background-image: url(./background\ image.jpeg);
+               background-repeat: no-repeat;
+               background-size: cover;
+               
 }
 .form {text-align: center;
 }
