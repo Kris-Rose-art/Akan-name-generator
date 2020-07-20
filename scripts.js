@@ -53,9 +53,33 @@ function getData(Event) {
     res.innerHTML = <h1>$input</h1>
 }
 
-if (Gender = Male && d =>0) {
-    console.log("give akanNameMale");
-} else (Gender = Female && d =>0) {
-  console.log("give akanNameFemale");
+if (Gender = Male && d = 0) {
+    console.log("your Akan name is Kwasi");
+} else (Gender = Female && d = 0) {
+    console.log("your Akan name is Akosua");
+} else if (Gender = Male && d = 1) {
+    console.log("your Akan name is Kwadwo");
+} else if (Gender = Female && d = 1) {
+    console.log("your Akan name is Adwoa");
+} else if (Gender = Male && d = 2) {
+    console.log("your Akan name is Kwabena");
+} else if (Gender = Female && d = 2) {
+    console.log("your Akan name is Abenaa");
+} else if (Gender = Male && d = 3) {
+    console.log("your Akan name is Kwaku");
+} else if (Gender = Female && d = 3) {
+    console.log("your Akan name is Akua");
+} else if (Gender = Male && d = 4) {
+    console.log("your Akan name is Yaw");
+} else if (Gender = Female && d = 4) {
+    console.log("your Akan name is Yaa");
+} else if (Gender = Male && d = 5) {
+    console.log("your Akan name is Kofi");
+} else if (Gender = Female && d = 5) {
+    console.log("your Akan name is Afua");
+} else if (Gender = Male && d = 6) {
+    console.log("your Akan name is Kwame");
+} else if (Gender = Female && d = 6) {
+    console.log("your Akan name is Ama");
 }
 
