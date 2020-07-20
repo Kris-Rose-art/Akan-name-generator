@@ -1,12 +1,3 @@
-var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-months.forEach(function(value, index, array) {
-    console.log(value, index)
-})
-var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
-days.forEach(function(value, index) {
-    console.log(value, index)
-    
-}) 
 var cc = centuryDigits;
 var yy = yearDigits;
 var dd = dayOfTheMonth;
@@ -14,11 +5,23 @@ var mm = monthOfTheYear;
 var mod = modulusFunction;
 var d = dayOfTheWeek;
 
+var daysOfTheWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+days.forEach(function(value, index) {
+    console.log(value, index)
+})
+var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+months.forEach(function(value, index, array) {
+    console.log(value, index)
+})
+var currentDate = Document.getElementById('datepicker').value
+
 function calculateDay() {
     getData(); d = (((cc/4)-2*cc-1)+((5*yy/4))+((26*(mm+1)/10))+dd)mod7;
     console.log(d);
     return(Math.floor(d));
 }
+
+
 var dd => 1;
 var dd =<31;
 var mm =>1;
