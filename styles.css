@@ -1,0 +1,14 @@
+h1 {text-align: center;
+    color: gainsboro;
+}
+h2 {text-align: center;
+}
+#landing-page {background-color: burlywood;
+               background-position-y: 500vh;
+               background-position-x: 500vh 500vw;
+}
+.form {text-align: center;
+}
+.input {text-align: center;
+}
+#button {color: cornflowerblue;}
