@@ -3,7 +3,7 @@ h1 {text-align: center;
 }
 h2 {text-align: center;
 }
-#landing-page {background-image: url(../images/background\ image.jpeg)
+#landing-page {background-image: url(../images/background\ image.jpeg);
                background-repeat: no-repeat;
                background-size: cover;
                margin-left: 20px;
