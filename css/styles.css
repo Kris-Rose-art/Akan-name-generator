@@ -1,0 +1,19 @@
+h1 {text-align: center;
+    color: gainsboro;
+}
+h2 {text-align: center;
+}
+#landing-page {background-image: url(./background\ image.jpeg);
+               background-repeat: no-repeat;
+               background-size: cover;
+               margin-left: 20px;
+               padding: 6px;
+}
+.form {text-align: center;
+}
+#input {text-align: center;
+}
+#button {color: cornflowerblue;
+} 
+.details {text-align: center;
+}  
