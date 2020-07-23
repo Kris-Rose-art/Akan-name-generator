@@ -5,7 +5,7 @@ var mm = monthOfTheYear;
 var mod = modulusFunction;
 var d = dayOfTheWeek;
 
-/
+
 var currentDate = document.getElementById('date').value
     console.log(currentDate)
 function calculateDay(currentDate) {
